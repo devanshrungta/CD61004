@@ -1,0 +1,71 @@
+user@dell:~/cd61004_dr/class3$ ./a.out 
+ Enter n:
+5
+ Time i,j,k:    4.00003046E-06
+ Time k,j,i:    2.00001523E-06
+user@dell:~/cd61004_dr/class3$ ./a.out 
+ Enter n:
+10
+ Time i,j,k:    9.99984331E-06
+ Time k,j,i:    6.00004569E-06
+user@dell:~/cd61004_dr/class3$ ./a.out 20
+ Enter n:
+20
+ Time i,j,k:    6.20000064E-05
+ Time k,j,i:    3.99999553E-05
+user@dell:~/cd61004_dr/class3$ ./a.out
+ Enter n:
+50
+ Time i,j,k:    9.91999870E-04
+ Time k,j,i:    5.50999772E-04
+user@dell:~/cd61004_dr/class3$ ./a.out
+ Enter n:
+100
+ Time i,j,k:    1.18800001E-02
+ Time k,j,i:    1.64900068E-03
+user@dell:~/cd61004_dr/class3$ ./a.out
+ Enter n:
+500
+ Time i,j,k:   0.615270972    
+ Time k,j,i:   0.172849000    
+user@dell:~/cd61004_dr/class3$ ./a.out
+ Enter n:
+1000
+ Time i,j,k:    13.8392963    
+ Time k,j,i:    1.34821606    
+user@dell:~/cd61004_dr/class3$ ./a.out
+ Enter n:
+1200
+ Time i,j,k:    28.1834755    
+ Time k,j,i:    2.33604050    
+user@dell:~/cd61004_dr/class3$ ./a.out
+ Enter n:
+1500
+ Time i,j,k:    38.2768936    
+ Time k,j,i:    4.54121780    
+user@dell:~/cd61004_dr/class3$ ./a.out
+ Enter n:
+1700
+ Time i,j,k:    56.2444649    
+ Time k,j,i:    6.60719681    
+user@dell:~/cd61004_dr/class3$ ./a.out
+ Enter n:
+2000
+ Time i,j,k:    173.309296    
+ Time k,j,i:    24.5568848    
+user@dell:~/cd61004_dr/class3$ gfortran memory_alignment.f90 -O2
+user@dell:~/cd61004_dr/class3$ ./a.out 
+ Enter n:
+100
+ Time i,j,k:    5.90999983E-03
+ Time k,j,i:    8.82999972E-04
+user@dell:~/cd61004_dr/class3$ ./a.out 
+ Enter n:
+1000
+ Time i,j,k:    14.1508856    
+ Time k,j,i:   0.317075729    
+user@dell:~/cd61004_dr/class3$ ./a.out 
+ Enter n:
+1500
+ Time i,j,k:    37.8304634    
+ Time k,j,i:    1.04327774 

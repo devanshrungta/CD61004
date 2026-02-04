@@ -1,0 +1,21 @@
+user@dell:~/cd61004_dr/class6$ mpirun -np 10 sum_of_n_parallel_cyclic.out 
+ Enter N: 
+100000
+Sum of first *****   numbers is: *******
+ Time taken:    2.69569997E-02
+user@dell:~/cd61004_dr/class6$ mpirun -np 10 sum_of_n_parallel_cyclic.out 
+ Enter N: 
+1000000
+Sum of first *****   numbers is: *******
+ Time taken:    2.71029994E-02
+user@dell:~/cd61004_dr/class6$ mpif90 sum_of_n_parallel_blockwise.f90 -o sum_of_n_parallel_blockwise.out
+user@dell:~/cd61004_dr/class6$ mpirun -np 10 sum_of_n_parallel_blockwise.out 
+ Enter N: 
+100000
+Sum of first *****   numbers is: *******
+ Time taken:    2.48360001E-02
+user@dell:~/cd61004_dr/class6$ mpirun -np 10 sum_of_n_parallel_blockwise.out 
+ Enter N: 
+100000
+Sum of first *****   numbers is: *******
+ Time taken:    2.62569990E-02

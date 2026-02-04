@@ -1,0 +1,8 @@
+N=100
+nproc = 3
+stride = 100/3 = 33
+remainder = 100 mod 3 = 1
+
+rank=0 i=1, 34
+rank=1 i=35, 68
+rank=2 i=69, 
