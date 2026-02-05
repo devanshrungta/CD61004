@@ -1,0 +1,25 @@
+l4 mpi slides not in mid sem
+
+- openMP intro (informal)
+- in mpi, 1 process can't access data from another
+- in openMP, we dont partition our ram -> first difference between mpi and openMP
+- terminology change - 'threads' and not 'process'
+- 'process' means its own resources
+- 'threads' are light weight
+- join & fork -> principle of openMP
+- mpi - n process occupied during whole duration of program, whereas in openMP kill and create thread as needed
+- distributed vs shared memory - MPI, openMP
+- single/same OS required in openMP, can't use it for multiple desktops say
+- if 1 process req is 1GB then 4GB req for 4 procs in MPI, this is a disadvantage
+- wall time = computation + communication -> mpi; communication=0 in openMP
+- openMP is a DIRECTIVE (wrt compiler terminologies)
+- flag = "-fopenmp"
+- all OMP directives begin with "!$omp" ("pragma" is C)
+- clauses - options with directives
+- 'master' & 'child' threads - terminology
+- private data variables lost after parallel region
+- rest syntax things in slide
+- define a variable value only in one thread - use "omp master"
+- unlike mpi, in openMP the do while is divided by openMP unlike we had to do in MPI
+- "crtitcal" ensures "lock" so that multiple threads don't access same memory
+- 
