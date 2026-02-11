@@ -1,0 +1,8 @@
+- critical ensures sequential 
+- barrier synchronizes
+- single - any one thread runs
+- reduction(op: x,y,z) [op=+,-,*, etc]
+- default breakdown of omp do - say n=1000, then if 4 threads then i=1-250, i=251-500, etc by default. default is BLOCKWISE
+- others - dynamic scheduling, cyclic
+- dynamic - automatically give task to idle thread
+- workshare to parallelise array operations, like adding 1 to all elements of a array
