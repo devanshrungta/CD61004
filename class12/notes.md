@@ -1,0 +1,18 @@
+- cache incoherence - 2 threads see different values of same variable since synchronizatio has not been acheived yet
+- cache levels - L1 (KBs), L2 (~1MBs), L3(~32MB)
+- to show your work to community, you show STRONG SCALING visualisation
+- here the problem size is fixed
+- time vs n - slope=-1 (strong scaling)
+- but it deviates from the straight line at some n,  this n is the optimised 
+
+- Weak scaling
+- T vs n -> straight line parallel to x-axis
+- Fixing problem size per process
+- same, deviating after some n
+- how efficiently is able to manage the memory
+- say HPC has 32 slots for ram with each having max 64gb capacity
+- say we require 256GB RAM in our problem, then (a) 4*64GB vs (b) 32*16GB - b is better
+- This is understood in weak scaling graph
+- Strong scaling deviation reason - communication increase with n
+- algo scalable, hardware - openMP vs MPI
+- hybrid approach - memory problems
