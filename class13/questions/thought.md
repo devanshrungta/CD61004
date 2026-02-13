@@ -1,0 +1,8 @@
+- in print sample question
+    - Approach 1: parallelise inner loop
+    - Approach 2: upgrade pr_sum to array of size nprint
+- in question pi_mc:
+    - if x,y is not private
+    - the answer seems correct (~3.10 to 3.14)
+    - the variability is high
+    - but with x,y as private the result is accurate
